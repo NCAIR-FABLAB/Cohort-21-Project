@@ -50,7 +50,7 @@ To run the **Speech-to-Speech Translator**, both hardware and software component
 
 ## 🔌 Circuit Diagram
 <p align="center">
-  <img src="images/circuit_diagram.png" alt="Speech-to-Speech Translator Circuit Diagram" width="1500"/>
+  <img src="NCAIR Speech-to-Speech Image Collection/circuit_diagram.png" alt="Speech-to-Speech Translator Circuit Diagram" width="1500"/>
   <br>
   <em>Device Circuit Diagram</em>
 </p>
@@ -125,17 +125,17 @@ The final enclosure dimensions are 87.5 mm in height, 140 mm in length, and 100 
 
 # 🖼️ 3D Models
 <p align="center">
-  <img src="images/cover.jpg" alt="Initial CAD Design Concept" width="600"/>
+  <img src="NCAIR Speech-to-Speech Image Collection/cover.jpg" alt="Initial CAD Design Concept" width="600"/>
   <br>
   <em>Device Cover</em>
 </p>
 <p align="center">
-  <img src="images/stand.jpg" alt="Initial CAD Design Concept" width="600"/>
+  <img src="NCAIR Speech-to-Speech Image Collection/stand.jpg" alt="Initial CAD Design Concept" width="600"/>
   <br>
   <em>Stand for Internal Components</em>
 </p>
 <p align="center">
-  <img src="images/housing.jpg" alt="Initial CAD Design Concept" width="600"/>
+  <img src="NCAIR Speech-to-Speech Image Collection/housing.jpg" alt="Initial CAD Design Concept" width="600"/>
   <br>
   <em>Main Housing</em>
 </p>
@@ -144,22 +144,22 @@ The final enclosure dimensions are 87.5 mm in height, 140 mm in length, and 100 
 
 # 📸 Project Pictures
 <p align="center">
-  <img src="images/final device.jpg" alt="The Speech-to-Speech Translator Device" width="600"/>
+  <img src="NCAIR Speech-to-Speech Image Collection/final device.jpg" alt="The Speech-to-Speech Translator Device" width="600"/>
   <br>
   <em>The Speech-to-Speech Translator</em>
 </p>
 <p align="center">
-  <img src="images/Hd_thing_3d.jpg" alt="3D Printing The Cover" width="600"/>
+  <img src="NCAIR Speech-to-Speech Image Collection/Hd_thing_3d.jpg" alt="3D Printing The Cover" width="600"/>
   <br>
   <em>Printing The Cover - 1</em>
 </p>
 <p align="center">
-  <img src="images/cover_3d.jpg" alt="3D Printing The Cover" width="600"/>
+  <img src="NCAIR Speech-to-Speech Image Collection/cover_3d.jpg" alt="3D Printing The Cover" width="600"/>
   <br>
   <em>Printing The Cover - 2</em>
 </p>
 <video width="600" controls>
-  <source src="videos/bottom_part2.mp4" type="video/mp4">
+  <source src="NCAIR Speech-to-Speech Image Collection/bottom_part2.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
