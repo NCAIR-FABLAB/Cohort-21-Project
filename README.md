@@ -59,7 +59,7 @@ To run the **Speech-to-Speech Translator**, both hardware and software component
 
 To run the **Speech-to-Speech Translator** system, the following libraries are required:
 
-- **I2C_LCD_driver**  
+- **I2C_LCD_driver_library**  
   Used to interact with the I2C LCD module.  
   Install via cloning the repository:  
   ```bash
