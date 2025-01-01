@@ -9,7 +9,7 @@ import numpy as np # imports numpy library for handling the audio data as arrays
 from datetime import datetime # imports the datetime module to generate timestamps for file names
 import spitch_translator_api_integration as sp # imports custom "spitch_translator" library for speech-to-text-to-speech conversion
 
-mylcd = I2C_LCD_driver.lcd() # initializes an object "mylcd" for interacting with the LCD
+mylcd = I2C_LCD_driver_library.lcd() # initializes an object "mylcd" for interacting with the LCD
 
 # LCD INITIAL DISPLAY
 
