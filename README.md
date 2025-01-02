@@ -1,4 +1,4 @@
-# 🌐 Cohort 21 Embedded Systems Project: Speech-to-Speech 🗣️ Language Translator Using Raspberry Pi
+# Speech-to-Speech 🗣️ Language Translator Using Raspberry Pi
 
 ---
 
