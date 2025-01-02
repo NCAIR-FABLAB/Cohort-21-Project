@@ -2,7 +2,7 @@
 
 ---
 
-## 🚀 Introduction/Overview
+## 🚀 Overview
 
 The **Speech-to-Speech Translator** is a system that receives voice input through a microphone, translates it via an [API Spitch](https://spi-tch.com/), and produces the translated output through a speaker. Additionally, the translated text is displayed on an I2C LCD, providing a visual representation of the translation. Built on a Raspberry Pi and housed in a 3D-printed enclosure, the device is both portable and user-friendly. It efficiently handles real-time language translation, making it a practical solution for communication in diverse scenarios such as travel, international meetings, or everyday conversations across language barriers.
 
