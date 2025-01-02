@@ -149,14 +149,14 @@ The final enclosure dimensions are 87.5 mm in height, 140 mm in length, and 100 
   <em>The Speech-to-Speech Translator</em>
 </p>
 <p align="center">
-  <img src="NCAIR Speech-to-Speech Image Collection/Hd_thing_3d.jpg" alt="3D Printing The Cover" width="600"/>
+  <img src="NCAIR Speech-to-Speech Image Collection/top_view_3d_printing_1.jpg" alt="Initial Stage of Top View 3D Printing with Prusa i3 mK 3" width="600"/>
   <br>
-  <em>Printing The Cover - 1</em>
+  <em>Top View 3D Printing (Initial Stage)</em>
 </p>
 <p align="center">
-  <img src="NCAIR Speech-to-Speech Image Collection/cover_3d.jpg" alt="3D Printing The Cover" width="600"/>
+  <img src="NCAIR Speech-to-Speech Image Collection/top_view_3d_printing_2.jpg" alt="Latter Stage of Top View 3D Printing with Prusa i3 mK 3" width="600"/>
   <br>
-  <em>Printing The Cover - 2</em>
+  <em>Top View 3D Printing (Latter Stage)</em>
 </p>
 <video width="600" controls>
   <source src="NCAIR Speech-to-Speech Image Collection/bottom_part2.mp4" type="video/mp4">
