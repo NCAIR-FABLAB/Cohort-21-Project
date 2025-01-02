@@ -140,6 +140,18 @@ The final enclosure dimensions are 87.5 mm in height, 140 mm in length, and 100 
   <em>Hollow Compartment Designed to House the Components</em>
 </p>
 
+<p align="center">
+  <img src="NCAIR Speech-to-Speech Image Collection/component_encapsulation.png" alt="Pictorial View of How The Various Components are Arranged Within The Hollow Compartment" width="600"/>
+  <br>
+  <em>Pictorial View of How The Various Components are Arranged Within The Hollow Compartment</em>
+</p>
+
+<p align="center">
+  <img src="NCAIR Speech-to-Speech Image Collection/final_assembled_device_design.png" alt="An Image of The Full Assembled Device Highlighting its Final Structure and Design" width="600"/>
+  <br>
+  <em>An Image of The Full Assembled Device Highlighting its Final Structure and Design</em>
+</p>
+
 ---
 
 # 📸 Project Pictures
