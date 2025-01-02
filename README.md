@@ -125,19 +125,19 @@ The final enclosure dimensions are 87.5 mm in height, 140 mm in length, and 100 
 
 # 🖼️ 3D Models
 <p align="center">
-  <img src="NCAIR Speech-to-Speech Image Collection/cover.jpg" alt="Initial CAD Design Concept" width="600"/>
+  <img src="NCAIR Speech-to-Speech Image Collection/device_top_view.jpg" alt="A Clear Image Showing the Top Part of the Device" width="600"/>
   <br>
-  <em>Device Cover</em>
+  <em>Device Top View</em>
 </p>
 <p align="center">
-  <img src="NCAIR Speech-to-Speech Image Collection/stand.jpg" alt="Initial CAD Design Concept" width="600"/>
+  <img src="NCAIR Speech-to-Speech Image Collection/internal_stand.jpg" alt="An Image Revealing The Internal Stand of the Device Before Assembly" width="600"/>
   <br>
   <em>Stand for Internal Components</em>
 </p>
 <p align="center">
-  <img src="NCAIR Speech-to-Speech Image Collection/housing.jpg" alt="Initial CAD Design Concept" width="600"/>
+  <img src="NCAIR Speech-to-Speech Image Collection/hollow_compartment_layout.jpg" alt="A View of the Hollow Compartment Designed To House the Components" width="600"/>
   <br>
-  <em>Main Housing</em>
+  <em>Hollow Compartment Designed to House the Components</em>
 </p>
 
 ---
