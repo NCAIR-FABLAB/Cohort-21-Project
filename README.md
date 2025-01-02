@@ -155,11 +155,7 @@ The final enclosure dimensions are 87.5 mm in height, 140 mm in length, and 100 
 ---
 
 # 📸 Project Pictures
-<p align="center">
-  <img src="NCAIR Speech-to-Speech Image Collection/final device.jpg" alt="The Speech-to-Speech Translator Device" width="600"/>
-  <br>
-  <em>The Speech-to-Speech Translator</em>
-</p>
+
 <p align="center">
   <img src="NCAIR Speech-to-Speech Image Collection/top_view_3d_printing_1.jpg" alt="Initial Stage of Top View 3D Printing with Prusa i3 mK 3" width="600"/>
   <br>
@@ -169,6 +165,11 @@ The final enclosure dimensions are 87.5 mm in height, 140 mm in length, and 100 
   <img src="NCAIR Speech-to-Speech Image Collection/top_view_3d_printing_2.jpg" alt="Latter Stage of Top View 3D Printing with Prusa i3 mK 3" width="600"/>
   <br>
   <em>Top View 3D Printing (Latter Stage)</em>
+</p>
+<p align="center">
+  <img src="NCAIR Speech-to-Speech Image Collection/final device.jpg" alt="The Speech-to-Speech Translator Device" width="600"/>
+  <br>
+  <em>The Speech-to-Speech Translator</em>
 </p>
 <video width="600" controls>
   <source src="NCAIR Speech-to-Speech Image Collection/bottom_part2.mp4" type="video/mp4">
