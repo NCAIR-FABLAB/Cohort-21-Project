@@ -43,14 +43,21 @@ To run the **Speech-to-Speech Translator**, both hardware and software component
 ## 🖥️ Hardware Requirements
 
 - **🎛️ Raspberry Pi 4B**: The central processing unit that runs the translation software and controls the hardware peripherals.
-- **🔌 Connecting Wires**: Used to connect various components, including the microphone, speaker, and LCD.
-- **🎤 USB Mini Microphone**: Captures the voice input for translation.
-- **🔊 Speaker**: Outputs the translated speech after processing.
-- **🖲️ Push Button**: Initiates the translation process when pressed.
-- **📺 LCD Screen**: Displays the translated text for visual feedback.
-- **🏗️ 3D-Printed Enclosure**: Houses all components securely for a portable and compact design.
+  <p align="center">
+  <img src="NCAIR Speech-to-Speech Image Collection/raspberry_pi.png" alt="Raspberry Pi 4b Pictorial Representation" width="1500"/>
+  <br>
+  <em>The Raspberry Pi 4b</em>
+</p>
 
-## 🔌 Circuit Diagram
+- **📺 LCD Screen**: Displays the translated text for visual feedback.
+  
+- **🎤 USB Mini Microphone**: Captures the voice input for translation.
+- **🖲️ Push Button**: Initiates the translation process when pressed.
+- **🔌 Connecting Wires**: Used to connect various components, including the microphone, speaker, and LCD.
+- **🔊 Speaker**: Outputs the translated speech after processing.
+- **🏗️ 3D-Printer**: Prints the final casing that houses all components securely using a portable and compact design.
+
+### 🔌 Circuit Diagram
 <p align="center">
   <img src="NCAIR Speech-to-Speech Image Collection/circuit_diagram.png" alt="Speech-to-Speech Translator Circuit Diagram" width="1500"/>
   <br>
