@@ -42,7 +42,7 @@ Built on a Raspberry Pi and housed in a 3D-printed casing, the device combines f
 
 ## 🛠️ How to Run
 
-To run the **Speech-to-Speech Translator**, both hardware and software components are needed. This section outlines the necessary hardware setup and the software libraries that need to be installed to get the system up and running. Follow the steps below to ensure everything is properly configured before running the program.
+To run the **Speech-to-Speech Language Translator**, both hardware and software components are needed. This section outlines the necessary hardware setup and the software libraries that need to be installed to get the system up and running. Follow the steps below to ensure everything is properly configured before running the program.
 
 ### 🖥️ Hardware Requirements
 
@@ -92,7 +92,7 @@ To run the **Speech-to-Speech Translator**, both hardware and software component
 
 ### 💾 Software Requirements
 
-To run the **Speech-to-Speech Translator** system, the following libraries are required:
+To run the **Speech-to-Speech Language Translator** system, the following libraries are required:
 
 - **I2C_LCD_driver_library:**  
   Used to interact with the I2C LCD module. To install, clone the repository:  
@@ -121,7 +121,7 @@ To run the **Speech-to-Speech Translator** system, the following libraries are r
   ```
 ### ▶️ Running the Program
 
-After installing the required hardware components and software libraries, follow these steps to run the **Speech-to-Speech Translator** system:
+After installing the required hardware components and software libraries, follow these steps to run the **Speech-to-Speech Language Translator** system:
 
 #### 1. Ensure All Components Are Connected:
 Make sure that the Raspberry Pi is properly connected to the microphone, speaker, push button, and I2C LCD screen using the provided connecting wires.
@@ -130,7 +130,7 @@ Make sure that the Raspberry Pi is properly connected to the microphone, speaker
 If you haven’t already installed the necessary libraries, do so using the commands listed in the [Software Requirements](#software-requirements) section.
 
 #### 3. Clone the Project:
-Clone the **Speech-to-Speech Translator** repository to your Raspberry Pi:
+Clone the **Speech-to-Speech Language Translator** repository to your Raspberry Pi:
 
 ```bash
 git clone https://github.com/your_project_repo.git
@@ -210,7 +210,7 @@ The final enclosure dimensions are 87.5 mm in height, 140 mm in length, and 100 
 <p align="center">
   <img src="NCAIR Speech-to-Speech Image Collection/final device.jpg" alt="The Speech-to-Speech Translator Device" width="600"/>
   <br>
-  <em>The Speech-to-Speech Translator</em>
+  <em>The Speech-to-Speech Language Translator</em>
 </p>
 <video width="600" controls>
   <source src="NCAIR Speech-to-Speech Image Collection/bottom_part2.mp4" type="video/mp4">
@@ -241,7 +241,7 @@ For more detailed information on the API, its features, please refer to the [Spi
 
 ## 🏁 Conclusion
 
-The Speech-to-Speech Translator is a functional prototype that facilitates real-time translation from Hausa to English. Although it is operational in its first iteration, there is significant potential for future improvements, including expanding language support and enhancing translation accuracy. This project demonstrates the feasibility of using accessible hardware to bridge language barriers, with many exciting opportunities for further development.
+The Speech-to-Speech Language Translator is a functional prototype that facilitates real-time translation from Hausa to English. Although it is operational in its first iteration, there is significant potential for future improvements, including expanding language support and enhancing translation accuracy. This project demonstrates the feasibility of using accessible hardware to bridge language barriers, with many exciting opportunities for further development.
 
 ---
 
