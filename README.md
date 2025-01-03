@@ -94,29 +94,29 @@ To run the **Speech-to-Speech Translator**, both hardware and software component
 
 To run the **Speech-to-Speech Translator** system, the following libraries are required:
 
-- **I2C_LCD_driver_library**  
+- **I2C_LCD_driver_library:**  
   Used to interact with the I2C LCD module.  
-  Install via cloning the repository:  
+  To install, clone the repository:  
   ```bash
   git clone https://github.com/your_I2C_LCD_driver_repo.git
   ```
-- **sounddevicer**  
-  Handles audio input/output for the system. Install via pip:
+- **sounddevicer:**  
+  Handles audio input/output for the system. To install, use:
   ```bash
   pip3 install sounddevice
   ```
-- **scipy**  
-  Provides functions to read and write audio data. Install via pip:
+- **scipy:**  
+  Provides functions to read and write audio data. To install, use:
   ```bash
     sudo apt-get install python3-gpiozero
   ```
-- **gpiozero**  
-  Used for handling GPIO pins connected to the button. Install via apt-get (for Raspberry Pi):
+- **gpiozero:**  
+  Used for handling GPIO pins connected to the button. To install, use apt-get (for Raspberry Pi):
   ```bash
     sudo apt-get install python3-gpiozero
   ```
-- **numpy**  
-  Required for handling audio data as arrays. Install via pip:
+- **numpy:**  
+  Required for handling audio data as arrays. To install, use:
   ```bash
     pip3 install numpy
   ```
