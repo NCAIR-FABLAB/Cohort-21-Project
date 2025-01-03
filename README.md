@@ -102,12 +102,12 @@ To run the **Speech-to-Speech Language Translator** system, the following librar
 - **sounddevice:**  
   Handles audio input/output for the system. To install, use:
   ```bash
-  pip3 install sounddevice
+  pip install sounddevice
   ```
 - **scipy:**  
   Provides functions to read and write audio data. To install, use:
   ```bash
-    sudo apt-get install python3-gpiozero
+    pip install scipy
   ```
 - **gpiozero:**  
   Used for handling GPIO pins connected to the button. To install, use apt-get (for Raspberry Pi):
@@ -117,7 +117,7 @@ To run the **Speech-to-Speech Language Translator** system, the following librar
 - **numpy:**  
   Required for handling binary audio data as arrays. To install, use:
   ```bash
-    pip3 install numpy
+    pip install numpy
   ```
 - **datetime (pre-installed):**  
 Used for generating timestamps for creating distinct file names. To use:
@@ -151,7 +151,6 @@ Clone the **Speech-to-Speech Language Translator** repository to your Raspberry 
 
 ```bash
 git clone https://github.com/NCAIR-FABLAB/Cohort-21-Project
-cd your_project_repo
 ```
 #### 4. Run the Program:
 To start the program, execute the Python script on command line:
