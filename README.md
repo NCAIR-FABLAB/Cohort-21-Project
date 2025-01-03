@@ -97,7 +97,7 @@ To run the **Speech-to-Speech Language Translator** system, the following librar
 - **I2C_LCD_driver_library:**  
   Used to interact with the I2C LCD module. To install, clone the repository:  
   ```bash
-  git clone https://github.com/your_I2C_LCD_driver_repo.git
+  git clone [https://github.com/your_I2C_LCD_driver_repo.git](https://github.com/NCAIR-FABLAB/Cohort-21-Project/blob/main/I2C_LCD_driver_library.py)
   ```
 - **sounddevice:**  
   Handles audio input/output for the system. To install, use:
@@ -115,10 +115,26 @@ To run the **Speech-to-Speech Language Translator** system, the following librar
     sudo apt-get install python3-gpiozero
   ```
 - **numpy:**  
-  Required for handling audio data as arrays. To install, use:
+  Required for handling binary audio data as arrays. To install, use:
   ```bash
     pip3 install numpy
   ```
+- **datetime (pre-installed):**  
+Used for generating timestamps for creating distinct file names. To use:
+```bash
+from datetime import datetime
+```
+- **time (pre-installed):**  
+Used for pausing program execution during runtime. To use:
+```bash
+from time import *
+```
+- **spitch_translator_api_integration:**  
+Used for the for speech-to-text-to-speech conversion. To install, clone the repository 
+```bash
+git clone [spitch_translator_api_integration](https://github.com/NCAIR-FABLAB/Cohort-21-Project/blob/main/spitch_translator_api_integration.py)
+```
+
 ### ▶️ Running the Program
 
 After installing the required hardware components and software libraries, follow these steps to run the **Speech-to-Speech Language Translator** system:
