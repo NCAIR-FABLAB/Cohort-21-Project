@@ -4,7 +4,7 @@
 
 ## 🚀 Overview
 
-The **Speech-to-Speech Translator** is a portable device designed to make communication across languages seamless. It captures voice input through a microphone, translates it using the translates it using an [API Spitch](https://spi-tch.com/), and plays the translated speech through a speaker. To make the translation even more accessible, the text is displayed on an I2C LCD screen, providing a clear visual representation.
+The **Speech-to-Speech Language Translator** is a portable device designed to make communication across languages seamless. It captures voice input through a microphone, translates it using the translates it using an [API Spitch](https://spi-tch.com/), and plays the translated speech through a speaker. To make the translation even more accessible, the text is displayed on an I2C LCD screen, providing a clear visual representation.
 
 Built on a Raspberry Pi and housed in a 3D-printed casing, the device combines functionality with portability.This project bridges the fields of machine learning and embedded systems, offering a seamless solution for real-time language translation. Whether you're traveling, participating in international meetings, or simply engaging in conversations across languages, the translator provides an intuitive and effective way to communicate.
 
