@@ -19,10 +19,10 @@ Built on a Raspberry Pi and housed in a 3D-printed casing, the device combines f
     - [▶️ Running the Program](#️-running-the-program)
 3. [🖨️ 3D Printing Process](#️-3d-printing-process)
     - [🖼️ 3D Models](#️-3d-models)
-5. [📸 Project Pictures](#-project-pictures)
-6. [🔗 API Integration](#-api-integration)
-7. [🏁 Conclusion](#-conclusion)
-8. [👥 Group Members](#-group-members)
+    - [📸 Project Pictures](#-project-pictures)
+4. [🔗 API Integration](#-api-integration)
+5. [🏁 Conclusion](#-conclusion)
+6. [👥 Group Members](#-group-members)
 
 ---
 
