@@ -138,26 +138,26 @@ For More Information on the Libraries and the Versions Used, Check the Complete 
 
 ### ▶️ Running the Program
 
-After installing the required hardware components and software libraries, follow these steps to run the **Speech-to-Speech Language Translator** system:
+After installing the required software libraries, follow these steps to run the **Speech-to-Speech Language Translator** system:
 
 #### 1. Ensure All Components Are Connected:
-Make sure that the Raspberry Pi is properly connected to the microphone, speaker, push button, and I2C LCD screen using the provided connecting wires.
+To connect the components, check the [🔌 Circuit Diagram](#-circuit-diagram) section. Make sure that the Raspberry Pi is properly connected to the microphone, speaker, push button, and I2C LCD screen using the provided connecting wires.
 
 #### 2. Install Required Libraries:
-If you haven’t already installed the necessary libraries, do so using the commands listed in the [Software Requirements](#software-requirements) section.
+If you haven’t already installed the necessary libraries, do so using the commands listed in the [💾 Software Requirements](#-software-requirements) section.
 
 #### 3. Clone the Project:
 Clone the **Speech-to-Speech Language Translator** repository to your Raspberry Pi:
 
 ```bash
-git clone https://github.com/your_project_repo.git
+git clone [https://github.com/your_project_repo.git](https://github.com/NCAIR-FABLAB/Cohort-21-Project)
 cd your_project_repo
 ```
 #### 4. Run the Program:
-To start the program, execute the Python script:
+To start the program, execute the Python script on command line:
 
 ```bash
-python3 speech_translator.py
+python3 speech_to_speech_translator_language.py
 ```
 #### 5. Using the System:
 Press and hold the button to begin recording your speech. After releasing the button, the system will process the translation and output the result through both the speaker and the LCD screen.
