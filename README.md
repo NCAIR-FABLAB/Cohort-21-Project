@@ -23,8 +23,8 @@ Built on a Raspberry Pi and housed in a 3D-printed casing, the device combines f
     - [📸 Project Pictures](#-project-pictures)
 5. [🛠️ How It Works](#️-how-it-works)
     - [🔗API Integration](#-api-integration)
-    - [Supported Languages](#-supported-languages)
-    - [Workflow](#️-workflow)
+    - [Supported Languages](#supported-languages)
+    - [Workflow](#️workflow)
 6. [🏁 Conclusion](#-conclusion)
 7. [👥 Contributors](#-contributors)
 
