@@ -179,7 +179,7 @@ Once you’re finished, press Ctrl+C to stop the program or unplug the Raspberry
 
 ## 🖨️ 3D Printing
 
-### 🎨 Designing the Enclosure
+### 🎨 Designing the 3D Casing
 To design the enclosure, Fusion 360 was used for 3D modeling. The design was printed using the Prusa i3 Mk 3 3D printer, and additional structural parts were cut using the Epilog laser cutter.
 
 The final device case dimensions are 87.5 mm in height, 140 mm in length, and 100 mm in width. The compact size of the case allows for an easy-to-use interface while housing all components securely, making it portable and user-friendly for everyday use.
