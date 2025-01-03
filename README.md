@@ -97,7 +97,7 @@ To run the **Speech-to-Speech Language Translator** system, the following librar
 - **I2C_LCD_driver_library:**  
   Used to interact with the I2C LCD module. To install, clone the repository:  
   ```bash
-  git clone [https://github.com/your_I2C_LCD_driver_repo.git](https://github.com/NCAIR-FABLAB/Cohort-21-Project/blob/main/I2C_LCD_driver_library.py)
+  git clone https://github.com/NCAIR-FABLAB/Cohort-21-Project/blob/main/I2C_LCD_driver_library.py
   ```
 - **sounddevice:**  
   Handles audio input/output for the system. To install, use:
@@ -132,7 +132,7 @@ from time import *
 - **spitch_translator_api_integration:**  
 Used for the for speech-to-text-to-speech conversion. To install, clone the repository 
 ```bash
-git clone [spitch_translator_api_integration](https://github.com/NCAIR-FABLAB/Cohort-21-Project/blob/main/spitch_translator_api_integration.py)
+git clone https://github.com/NCAIR-FABLAB/Cohort-21-Project/blob/main/spitch_translator_api_integration.py
 ```
 For More Information on the Libraries and the Versions Used, Check the Complete [requirements.txt file](https://github.com/NCAIR-FABLAB/Cohort-21-Project/blob/main/requirements.txt)
 
@@ -150,7 +150,7 @@ If you haven’t already installed the necessary libraries, do so using the comm
 Clone the **Speech-to-Speech Language Translator** repository to your Raspberry Pi:
 
 ```bash
-git clone [https://github.com/your_project_repo.git](https://github.com/NCAIR-FABLAB/Cohort-21-Project)
+git clone https://github.com/NCAIR-FABLAB/Cohort-21-Project
 cd your_project_repo
 ```
 #### 4. Run the Program:
