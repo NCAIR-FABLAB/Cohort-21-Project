@@ -17,12 +17,13 @@ Built on a Raspberry Pi and housed in a 3D-printed casing, the device combines f
     - [🖥️ Hardware Requirements](#️-hardware-requirements)
     - [💾 Software Requirements](#-software-requirements)
     - [▶️ Running the Program](#️-running-the-program)
-3. [🖨️ 3D Printing Process](#️-3d-printing-process)
+3. [🔌 Circuit Diagram](#-circuit-diagram)
+4. [🖨️ 3D Printing Process](#️-3d-printing-process)
     - [🖼️ 3D Models](#️-3d-models)
     - [📸 Project Pictures](#-project-pictures)
-4. [🔗 API Integration](#-api-integration)
-5. [🏁 Conclusion](#-conclusion)
-6. [👥 Group Members](#-group-members)
+5. [🔗 API Integration](#-api-integration)
+6. [🏁 Conclusion](#-conclusion)
+7. [👥 Group Members](#-group-members)
 
 ---
 
@@ -40,7 +41,7 @@ Built on a Raspberry Pi and housed in a 3D-printed casing, the device combines f
 
 To run the **Speech-to-Speech Translator**, both hardware and software components are needed. This section outlines the necessary hardware setup and the software libraries that need to be installed to get the system up and running. Follow the steps below to ensure everything is properly configured before running the program.
 
-## 🖥️ Hardware Requirements
+### 🖥️ Hardware Requirements
 
 - **🎛️ Raspberry Pi 4B**: The central processing unit that runs the translation software and controls the hardware peripherals.
 <p align="center">
@@ -86,13 +87,6 @@ To run the **Speech-to-Speech Translator**, both hardware and software component
     <em>3D Printer</em>
 </p>
 
-### 🔌 Circuit Diagram
-<p align="center">
-  <img src="NCAIR Speech-to-Speech Image Collection/circuit_diagram.png" alt="Speech-to-Speech Translator Circuit Diagram" width="1500"/>
-  <br>
-  <em>Device Circuit Diagram</em>
-</p>
-
 ### 💾 Software Requirements
 
 To run the **Speech-to-Speech Translator** system, the following libraries are required:
@@ -123,45 +117,51 @@ To run the **Speech-to-Speech Translator** system, the following libraries are r
   ```bash
     pip3 install numpy
   ```
-## ▶️ Running the Program
+### ▶️ Running the Program
 
 After installing the required hardware components and software libraries, follow these steps to run the **Speech-to-Speech Translator** system:
 
-### 1. Ensure All Components Are Connected:
+#### 1. Ensure All Components Are Connected:
 Make sure that the Raspberry Pi is properly connected to the microphone, speaker, push button, and I2C LCD screen using the provided connecting wires.
 
-### 2. Install Required Libraries:
+#### 2. Install Required Libraries:
 If you haven’t already installed the necessary libraries, do so using the commands listed in the [Software Requirements](#software-requirements) section.
 
-### 3. Clone the Project:
+#### 3. Clone the Project:
 Clone the **Speech-to-Speech Translator** repository to your Raspberry Pi:
 
 ```bash
 git clone https://github.com/your_project_repo.git
 cd your_project_repo
 ```
-### 4. Run the Program:
+#### 4. Run the Program:
 To start the program, execute the Python script:
 
 ```bash
 python3 speech_translator.py
 ```
-### 5. Using the System:
+#### 5. Using the System:
 Press and hold the button to begin recording your speech. After releasing the button, the system will process the translation and output the result through both the speaker and the LCD screen.
 
-### 6. End the Session:
+#### 6. End the Session:
 Once you’re finished, press Ctrl+C to stop the program or unplug the Raspberry Pi.
 
 ---
+## 🔌 Circuit Diagram
+<p align="center">
+  <img src="NCAIR Speech-to-Speech Image Collection/circuit_diagram.png" alt="Speech-to-Speech Translator Circuit Diagram" width="1500"/>
+  <br>
+  <em>Device Circuit Diagram</em>
+</p>
 
-# 🖨️ 3D Printing Process
+## 🖨️ 3D Printing Process
 
-## 🎨 Designing the Enclosure
+### 🎨 Designing the Enclosure
 To design the enclosure, Fusion 360 was used for 3D modeling. The design was printed using the Prusa i3 Mk 3 3D printer, and additional structural parts were laser cut using the Epilog laser cutter.
 
 The final enclosure dimensions are 87.5 mm in height, 140 mm in length, and 100 mm in width. The compact size of the enclosure allows for an easy-to-use interface while housing all components securely, making it portable and user-friendly for everyday use.
 
-# 🖼️ 3D Models
+### 🖼️ 3D Models
 <p align="center">
   <img src="NCAIR Speech-to-Speech Image Collection/device_top_view_.jpg" alt="A Clear Image Showing the Top Part of the Device" width="600"/>
   <br>
@@ -192,7 +192,7 @@ The final enclosure dimensions are 87.5 mm in height, 140 mm in length, and 100 
 
 ---
 
-# 📸 Project Pictures
+## 📸 Project Pictures
 
 <p align="center">
   <img src="NCAIR Speech-to-Speech Image Collection/top_view_3d_printing_1.jpg" alt="Initial Stage of Top View 3D Printing with Prusa i3 mK 3" width="600"/>
@@ -216,15 +216,15 @@ The final enclosure dimensions are 87.5 mm in height, 140 mm in length, and 100 
 
 ---
 
-# 🔗 API Integration
+## 🔗 API Integration
 The Speech-to-Speech Translator system relies on the [Spitch API](https://spi-tch.com/), which is based on a large language processing model hosted on a backend server. This API provides seamless speech translation through a series of steps involving transcription, translation, and speech synthesis.
 
-### How It Works with the System:
+## How It Works with the System:
 - **Speech-to-Text**: The system records the user's speech input in Hausa using the microphone. The audio is sent to the [Spitch API](https://spi-tch.com/), where it is transcribed into Hausa text.
 - **Translation**: The API translates the transcribed Hausa text into English.
 - **Text-to-Speech**: The translated English text is then converted back into speech, which is played aloud through the speaker. The translated text is also displayed on the LCD screen for visual feedback.
 
-### Supported Languages:
+## Supported Languages:
 The API supports transcription and translation for the following languages:
 - Hausa
 - Yoruba
@@ -234,7 +234,7 @@ For more detailed information on the API, its features, please refer to the [Spi
 
 ---
 
-# 🏁 Conclusion
+## 🏁 Conclusion
 The Speech-to-Speech Translator is a functional prototype that facilitates real-time translation from Hausa to English. Although it is operational in its first iteration, there is significant potential for future improvements, including expanding language support and enhancing translation accuracy. This project demonstrates the feasibility of using accessible hardware to bridge language barriers, with many exciting opportunities for further development.
 
 ---
