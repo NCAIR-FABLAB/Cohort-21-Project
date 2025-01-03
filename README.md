@@ -269,7 +269,7 @@ For more detailed information on the API, its features, please refer to the [Spi
 
 ## 🏁 Conclusion
 
-The Speech-to-Speech Language Translator is a functional prototype that facilitates real-time translation from Hausa to English. Although it is operational in its first iteration, there is significant potential for future improvements, including expanding language support and enhancing translation accuracy. This project demonstrates the feasibility of using accessible hardware to bridge language barriers, with many exciting opportunities for further development.
+The Speech-to-Speech Language Translator is a prototype that enables real-time translation from Hausa to English. While this is the first version, there is great potential for future improvements, such as adding support for more languages, improving translation accuracy, and reducing the overall size. This project showcases the possibility of using readily available hardware to overcome language barriers, opening up many exciting opportunities for future development.
 
 ---
 
