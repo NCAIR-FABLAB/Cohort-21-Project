@@ -21,10 +21,10 @@ Built on a Raspberry Pi and housed in a 3D-printed casing, the device combines f
 4. [🖨️ 3D Printing Process](#️-3d-printing-process)
     - [🖼️ 3D Models](#️-3d-models)
     - [📸 Project Pictures](#-project-pictures)
-5. [🛠️ How It Works](#️-how-it-works)
+5. [How It Works](#how-it-works)
     - [🔗API Integration](#-api-integration)
     - [Supported Languages](#supported-languages)
-    - [Workflow](#️workflow)
+    - [Workflow](#workflow)
 6. [🏁 Conclusion](#-conclusion)
 7. [👥 Contributors](#-contributors)
 
@@ -219,7 +219,7 @@ The final enclosure dimensions are 87.5 mm in height, 140 mm in length, and 100 
 
 ---
 
-## 🛠️ How It Works
+## How It Works
 
 ### 🔗 API Integration
 The Speech-to-Speech Translator system relies on the [Spitch API](https://spi-tch.com/), which is based on a large language processing model hosted on a backend server. This API provides seamless speech translation through a series of steps involving transcription, translation, and speech synthesis.
