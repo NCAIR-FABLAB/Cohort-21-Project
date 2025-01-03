@@ -21,12 +21,12 @@ Built on a Raspberry Pi and housed in a 3D-printed casing, the device combines f
 4. [🖨️ 3D Printing Process](#️-3d-printing-process)
     - [🖼️ 3D Models](#️-3d-models)
     - [📸 Project Pictures](#-project-pictures)
-5. [🛠️ How to Run](#️-how-to-run)
+5. [🛠️ How It Works](#️-how-it-works)
     - [🔗API Integration](#-api-integration)
     - [Supported Languages](#-supported-languages)
     - [Workflow](#️-workflow)
 6. [🏁 Conclusion](#-conclusion)
-7. [👥 Group Members](#-group-members)
+7. [👥 Contributors](#-group-members)
 
 ---
 
@@ -159,6 +159,8 @@ Once you’re finished, press Ctrl+C to stop the program or unplug the Raspberry
   <em>Device Circuit Diagram</em>
 </p>
 
+---
+
 ## 🖨️ 3D Printing Process
 
 ### 🎨 Designing the Enclosure
@@ -195,9 +197,7 @@ The final enclosure dimensions are 87.5 mm in height, 140 mm in length, and 100 
   <em>An Image of The Full Assembled Device Highlighting its Final Structure and Design</em>
 </p>
 
----
-
-## 📸 Project Pictures
+### 📸 Project Pictures
 <p align="center">
   <img src="NCAIR Speech-to-Speech Image Collection/top_view_3d_printing_1.jpg" alt="Initial Stage of Top View 3D Printing with Prusa i3 mK 3" width="600"/>
   <br>
@@ -246,7 +246,7 @@ The Speech-to-Speech Translator is a functional prototype that facilitates real-
 
 ---
 
-## 👥 Group Members
+## 👥 Contributors
 
 - **Rizama Victor Samuel**  [GitHub: Rizama03](https://github.com/Rizama03)
 - **Ifeoluwa Omole**  [GitHub: andy-ife](https://github.com/andy-ife)
