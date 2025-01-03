@@ -21,7 +21,10 @@ Built on a Raspberry Pi and housed in a 3D-printed casing, the device combines f
 4. [🖨️ 3D Printing Process](#️-3d-printing-process)
     - [🖼️ 3D Models](#️-3d-models)
     - [📸 Project Pictures](#-project-pictures)
-5. [🔗 API Integration](#-api-integration)
+5. [🛠️ How to Run](#️-how-to-run)
+    - [🔗API Integration](#-api-integration)
+    - [Supported Languages](#-supported-languages)
+    - [Workflow](#️-workflow)
 6. [🏁 Conclusion](#-conclusion)
 7. [👥 Group Members](#-group-members)
 
@@ -147,7 +150,9 @@ Press and hold the button to begin recording your speech. After releasing the bu
 Once you’re finished, press Ctrl+C to stop the program or unplug the Raspberry Pi.
 
 ---
+
 ## 🔌 Circuit Diagram
+
 <p align="center">
   <img src="NCAIR Speech-to-Speech Image Collection/circuit_diagram.png" alt="Speech-to-Speech Translator Circuit Diagram" width="1500"/>
   <br>
@@ -193,7 +198,6 @@ The final enclosure dimensions are 87.5 mm in height, 140 mm in length, and 100 
 ---
 
 ## 📸 Project Pictures
-
 <p align="center">
   <img src="NCAIR Speech-to-Speech Image Collection/top_view_3d_printing_1.jpg" alt="Initial Stage of Top View 3D Printing with Prusa i3 mK 3" width="600"/>
   <br>
@@ -216,13 +220,10 @@ The final enclosure dimensions are 87.5 mm in height, 140 mm in length, and 100 
 
 ---
 
-## 🔗 API Integration
-The Speech-to-Speech Translator system relies on the [Spitch API](https://spi-tch.com/), which is based on a large language processing model hosted on a backend server. This API provides seamless speech translation through a series of steps involving transcription, translation, and speech synthesis.
+## How It Works
 
-## How It Works with the System:
-- **Speech-to-Text**: The system records the user's speech input in Hausa using the microphone. The audio is sent to the [Spitch API](https://spi-tch.com/), where it is transcribed into Hausa text.
-- **Translation**: The API translates the transcribed Hausa text into English.
-- **Text-to-Speech**: The translated English text is then converted back into speech, which is played aloud through the speaker. The translated text is also displayed on the LCD screen for visual feedback.
+### 🔗 API Integration
+The Speech-to-Speech Translator system relies on the [Spitch API](https://spi-tch.com/), which is based on a large language processing model hosted on a backend server. This API provides seamless speech translation through a series of steps involving transcription, translation, and speech synthesis.
 
 ## Supported Languages:
 The API supports transcription and translation for the following languages:
@@ -230,18 +231,27 @@ The API supports transcription and translation for the following languages:
 - Yoruba
 - Igbo
 
+### Workflow:
+- **Speech-to-Text**: The system records the user's speech input in Hausa using the microphone. The audio is sent to the [Spitch API](https://spi-tch.com/), where it is transcribed into Hausa text.
+- **Translation**: The API translates the transcribed Hausa text into English.
+- **Text-to-Speech**: The translated English text is then converted back into speech, which is played aloud through the speaker. The translated text is also displayed on the LCD screen for visual feedback.
+
 For more detailed information on the API, its features, please refer to the [Spitch API Documentation](https://docs.spi-tch.com/getting-started/welcome).
 
 ---
 
 ## 🏁 Conclusion
+
 The Speech-to-Speech Translator is a functional prototype that facilitates real-time translation from Hausa to English. Although it is operational in its first iteration, there is significant potential for future improvements, including expanding language support and enhancing translation accuracy. This project demonstrates the feasibility of using accessible hardware to bridge language barriers, with many exciting opportunities for further development.
 
 ---
 
 ## 👥 Group Members
+
 - **Rizama Victor Samuel**  [GitHub: Rizama03](https://github.com/Rizama03)
 - **Ifeoluwa Omole**  [GitHub: andy-ife](https://github.com/andy-ife)
 - **Ahmad Abubakar Sadiq**  [GitHub: Dantama022](https://github.com/Dantama022)
 - **Yero Muhammad Bunuyaminu**  [GitHub: MubarakYero](https://github.com/MubarakYero)
 - **Abdulaziz Ahmad Ibrahim**  [GitHub: Abdul-ahmad](https://github.com/Abdul-ahmad)
+  
+---
