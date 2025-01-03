@@ -72,7 +72,7 @@ To run the **Speech-to-Speech Translator**, both hardware and software component
 
 - **🔌 Connecting Wires**: Used to connect various components, including the microphone, speaker, and LCD.
 <p align="center">
-    <img src="NCAIR Speech-to-Speech Image Collection/connecting_wires.png" alt="Used to connect various components, including the microphone, speaker, and LCD" width="1500"/>
+    <img src="NCAIR Speech-to-Speech Image Collection/connecting_wires.jpg" alt="Used to connect various components, including the microphone, speaker, and LCD" width="1500"/>
     <br>
     <em>Connecting Wires</em>
 </p>
@@ -81,7 +81,7 @@ To run the **Speech-to-Speech Translator**, both hardware and software component
 
 - **🏗️ 3D-Printer**: Prints the final casing that houses all components securely using a portable and compact design.
 <p align="center">
-    <img src="NCAIR Speech-to-Speech Image Collection/prusa_i3_mk3_3D_printer.jpg" alt="Prints the final casing that houses all components securely using a portable and compact design" width="1500"/>
+    <img src="NCAIR Speech-to-Speech Image Collection/prusa_i3_mk_3D_printer.jpg" alt="Prints the final casing that houses all components securely using a portable and compact design" width="1500"/>
     <br>
     <em>3D Printer</em>
 </p>
