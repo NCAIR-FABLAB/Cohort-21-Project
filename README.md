@@ -4,7 +4,7 @@
 
 ## 🚀 Overview
 
-The **Speech-to-Speech Language Translator** is a portable device designed to make communication across languages seamless. It captures voice input through a microphone,  translates it using an [API Spitch](https://spi-tch.com/), and plays the translated speech through a speaker. To make the translation even more accessible, the text is displayed on an I2C LCD screen, providing a clear visual representation.
+The **Speech-to-Speech Language Translator** is a portable device designed to make communication across languages seamless. It captures voice input through a microphone,  translates it using the machine learning model [Spitch](https://spi-tch.com/), and plays the translated speech through a speaker. To promote user interaction, the text is displayed on an I2C LCD screen, providing a clear visual representation.
 
 Built on a Raspberry Pi and housed in a 3D-printed casing, the device combines functionality with portability. This project bridges the fields of machine learning and embedded systems, offering a seamless solution for real-time language translation. Whether you're traveling, participating in international meetings, or simply engaging in conversations across languages, the translator provides an intuitive and effective way to communicate.
 
@@ -244,20 +244,26 @@ The final device case dimensions are 87.5 mm in height, 140 mm in length, and 10
 ## How It Works
 
 ### 🔗 API Integration
-The Speech-to-Speech Translator system relies on the [Spitch API](https://spi-tch.com/), which is based on a large language processing model hosted on a backend server. This API provides seamless speech translation through a series of steps involving transcription, translation, and speech synthesis.
+
+The Speech-to-Speech Language Translator device uses [Spitch](https://spi-tch.com/), a natural language processing model hosted on a backend server. The translation process works by first transcribing the speech to text, then translating it to the target language, and finally converting the translated text back into speech in the target language. The API allows seamless interaction with the model while performing these steps to translate the spoken language.
 
 ### Supported Languages
 The API supports transcription and translation for the following languages:
 - Hausa
 - Yoruba
 - Igbo
+- English
+  
+**Note:** In this application, the project focused on Translation of Hausa to English
 
 ### Workflow
-- **Speech-to-Text**: The system records the user's speech input in Hausa using the microphone. The audio is sent to the [Spitch API](https://spi-tch.com/), where it is transcribed into Hausa text.
-- **Translation**: The API translates the transcribed Hausa text into English.
-- **Text-to-Speech**: The translated English text is then converted back into speech, which is played aloud through the speaker. The translated text is also displayed on the LCD screen for visual feedback.
+- **Speech-to-Text**: The system starts by first recording the user's speech input in Hausa using the microphone. The recorded audio in `.wav` format is then sent via the API as an input to the [Spitch model](https://spi-tch.com/) for transcription into Hausa text.
+- **Translation**: The model then translates the transcribed Hausa text into English text.
+- **Text-to-Speech**: Finally, the translated English text is then converted back into an audio file in `.wav` format, which is played aloud through the speaker using an agent's voice (lucy). The translated text is also displayed on the LCD screen for visual interaction.
 
-For more detailed information on the API, its features, please refer to the [Spitch API Documentation](https://docs.spi-tch.com/getting-started/welcome).
+Other Agent Voices Available Include: john, lina, and jude.
+
+For more detailed information on the API, its features, please refer to the [Spitch Documentation](https://docs.spi-tch.com/getting-started/welcome).
 
 ---
 
