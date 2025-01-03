@@ -26,7 +26,7 @@ Built on a Raspberry Pi and housed in a 3D-printed casing, the device combines f
     - [Supported Languages](#-supported-languages)
     - [Workflow](#️-workflow)
 6. [🏁 Conclusion](#-conclusion)
-7. [👥 Contributors](#-group-members)
+7. [👥 Contributors](#-contributors)
 
 ---
 
@@ -225,7 +225,7 @@ The final enclosure dimensions are 87.5 mm in height, 140 mm in length, and 100 
 ### 🔗 API Integration
 The Speech-to-Speech Translator system relies on the [Spitch API](https://spi-tch.com/), which is based on a large language processing model hosted on a backend server. This API provides seamless speech translation through a series of steps involving transcription, translation, and speech synthesis.
 
-## Supported Languages:
+### Supported Languages:
 The API supports transcription and translation for the following languages:
 - Hausa
 - Yoruba
