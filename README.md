@@ -43,7 +43,7 @@ To run the **Speech-to-Speech Translator**, both hardware and software component
 ## 🖥️ Hardware Requirements
 
 - **🎛️ Raspberry Pi 4B**: The central processing unit that runs the translation software and controls the hardware peripherals.
-  <p align="center">
+<p align="center">
   <img src="NCAIR Speech-to-Speech Image Collection/raspberry_pi.png" alt="Raspberry Pi 4b Pictorial Representation" width="1500"/>
   <br>
   <em>The Raspberry Pi 4b</em>
