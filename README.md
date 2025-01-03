@@ -18,9 +18,9 @@ Built on a Raspberry Pi and housed in a 3D-printed casing, the device combines f
     - [💾 Software Requirements](#-software-requirements)
     - [▶️ Running the Program](#️-running-the-program)
 3. [🔌 Circuit Diagram](#-circuit-diagram)
-4. [🖨️ 3D Printing Process](#️-3d-printing-process)
+4. [🖨️ 3D Printing](#️-3d-printing)
     - [🖼️ 3D Models](#️-3d-models)
-    - [📸 Project Pictures](#-project-pictures)
+    - [📸 Printing Process](#-printing-process)
 5. [How It Works](#how-it-works)
     - [🔗API Integration](#-api-integration)
     - [Supported Languages](#supported-languages)
@@ -177,7 +177,7 @@ Once you’re finished, press Ctrl+C to stop the program or unplug the Raspberry
 
 ---
 
-## 🖨️ 3D Printing Process
+## 🖨️ 3D Printing
 
 ### 🎨 Designing the Enclosure
 To design the enclosure, Fusion 360 was used for 3D modeling. The design was printed using the Prusa i3 Mk 3 3D printer, and additional structural parts were cut using the Epilog laser cutter.
@@ -213,16 +213,21 @@ The final device case dimensions are 87.5 mm in height, 140 mm in length, and 10
   <em>An Image of The Full Assembled Device Highlighting its Final Structure and Design</em>
 </p>
 
-### 📸 Project Pictures
+### 📸 Printing Process
 <p align="center">
-  <img src="NCAIR Speech-to-Speech Image Collection/top_view_3d_printing_1.jpg" alt="Initial Stage of Top View 3D Printing with Prusa i3 mK 3" width="600"/>
+  <img src="NCAIR Speech-to-Speech Image Collection/Initial Stage of Top View 3D Printing with Prusa i3 mK 3.jpg" alt="Initial Stage of Top View 3D Printing with Prusa i3 mK 3" width="600"/>
   <br>
   <em>Top View 3D Printing (Initial Stage)</em>
 </p>
 <p align="center">
-  <img src="NCAIR Speech-to-Speech Image Collection/top_view_3d_printing_2.jpg" alt="Latter Stage of Top View 3D Printing with Prusa i3 mK 3" width="600"/>
+  <img src="NCAIR Speech-to-Speech Image Collection/Latter Stage of Top View 3D Printing with Prusa i3 mK 3.jpg" alt="Latter Stage of Top View 3D Printing with Prusa i3 mK 3" width="600"/>
   <br>
   <em>Top View 3D Printing (Latter Stage)</em>
+</p>
+<p align="center">
+  <img src="NCAIR Speech-to-Speech Image Collection/Inner Compartment Stand.jpg" alt="Printed Inner Compartment" width="600"/>
+  <br>
+  <em>Inner Compartment Stand</em>
 </p>
 <p align="center">
   <img src="NCAIR Speech-to-Speech Image Collection/final device.jpg" alt="The Speech-to-Speech Translator Device" width="600"/>
