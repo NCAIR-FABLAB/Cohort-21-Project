@@ -134,6 +134,7 @@ Used for the for speech-to-text-to-speech conversion. To install, clone the repo
 ```bash
 git clone [spitch_translator_api_integration](https://github.com/NCAIR-FABLAB/Cohort-21-Project/blob/main/spitch_translator_api_integration.py)
 ```
+For More Information on the Libraries and the Versions Used, Check the Complete [requirements.txt file](https://github.com/NCAIR-FABLAB/Cohort-21-Project/blob/main/requirements.txt)
 
 ### ▶️ Running the Program
 
