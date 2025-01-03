@@ -219,18 +219,18 @@ The final enclosure dimensions are 87.5 mm in height, 140 mm in length, and 100 
 
 ---
 
-## How It Works
+## 🛠️ How It Works
 
-### 🔗 API Integration:
+### 🔗 API Integration
 The Speech-to-Speech Translator system relies on the [Spitch API](https://spi-tch.com/), which is based on a large language processing model hosted on a backend server. This API provides seamless speech translation through a series of steps involving transcription, translation, and speech synthesis.
 
-### Supported Languages:
+### Supported Languages
 The API supports transcription and translation for the following languages:
 - Hausa
 - Yoruba
 - Igbo
 
-### Workflow:
+### Workflow
 - **Speech-to-Text**: The system records the user's speech input in Hausa using the microphone. The audio is sent to the [Spitch API](https://spi-tch.com/), where it is transcribed into Hausa text.
 - **Translation**: The API translates the transcribed Hausa text into English.
 - **Text-to-Speech**: The translated English text is then converted back into speech, which is played aloud through the speaker. The translated text is also displayed on the LCD screen for visual feedback.
