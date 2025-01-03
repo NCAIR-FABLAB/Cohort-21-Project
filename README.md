@@ -44,18 +44,47 @@ To run the **Speech-to-Speech Translator**, both hardware and software component
 
 - **🎛️ Raspberry Pi 4B**: The central processing unit that runs the translation software and controls the hardware peripherals.
 <p align="center">
-<img src="NCAIR Speech-to-Speech Image Collection/raspberry_pi.png" alt="Raspberry Pi 4b Pictorial Representation" width="1500"/>
-<br>
-<em>The Raspberry Pi 4b</em>
+    <img src="NCAIR Speech-to-Speech Image Collection/raspberry_pi.png" alt="Raspberry Pi 4b Pictorial Representation" width="1500"/>
+    <br>
+    <em>The Raspberry Pi 4b</em>
 </p>
 
 - **📺 LCD Screen**: Displays the translated text for visual feedback.
-  
+<p align="center">
+    <img src="NCAIR Speech-to-Speech Image Collection/16 x 2 LCD.jpg" alt="Displays the translated text for visual feedback" width="1500"/>
+    <br>
+    <em>The 16 X 2 I2C LCD</em>
+</p>
+
 - **🎤 USB Mini Microphone**: Captures the voice input for translation.
+<p align="center">
+    <img src="NCAIR Speech-to-Speech Image Collection/usb_microphone.png" alt="Captures the voice input for translation" width="1500"/>
+    <br>
+    <em>USB Mini Microphone</em>
+</p>
+
 - **🖲️ Push Button**: Initiates the translation process when pressed.
+<p align="center">
+    <img src="NCAIR Speech-to-Speech Image Collection/push_button.png" alt="Initiates the translation process when pressed" width="1500"/>
+    <br>
+    <em>Push Button</em>
+</p>
+
 - **🔌 Connecting Wires**: Used to connect various components, including the microphone, speaker, and LCD.
+<p align="center">
+    <img src="NCAIR Speech-to-Speech Image Collection/connecting_wires.png" alt="Used to connect various components, including the microphone, speaker, and LCD" width="1500"/>
+    <br>
+    <em>Connecting Wires</em>
+</p>
+
 - **🔊 Speaker**: Outputs the translated speech after processing.
+
 - **🏗️ 3D-Printer**: Prints the final casing that houses all components securely using a portable and compact design.
+<p align="center">
+    <img src="NCAIR Speech-to-Speech Image Collection/prusa_i3_mk3_3D_printer.jpg" alt="Prints the final casing that houses all components securely using a portable and compact design" width="1500"/>
+    <br>
+    <em>3D Printer</em>
+</p>
 
 ### 🔌 Circuit Diagram
 <p align="center">
