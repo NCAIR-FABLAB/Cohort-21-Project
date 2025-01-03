@@ -99,7 +99,7 @@ To run the **Speech-to-Speech Language Translator** system, the following librar
   ```bash
   git clone https://github.com/your_I2C_LCD_driver_repo.git
   ```
-- **sounddevicer:**  
+- **sounddevice:**  
   Handles audio input/output for the system. To install, use:
   ```bash
   pip3 install sounddevice
